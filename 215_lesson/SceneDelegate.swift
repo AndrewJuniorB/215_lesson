@@ -61,6 +61,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     override func sceneWillResignActive(enough) {
         //
     }
-
+    
+    override func sceneDidDisconnect {
+        //
+    }
 }
 
